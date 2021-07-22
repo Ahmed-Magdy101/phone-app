@@ -46,3 +46,12 @@ body{
     border-radius: 50px;
     margin: 0px;
 }
+
+.card-title{
+    font-family: 'Almarai', sans-serif;
+}
+
+.card-text{
+    font-family: 'Scheherazade', serif;
+    font-size: 1.5rem;
+}
