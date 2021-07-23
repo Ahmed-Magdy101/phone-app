@@ -1,57 +1,10 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    background-color: #eee;
-}
 
-#backbox{
-    margin: 0;
-    background-color: #fff;
-}
-
-#header{
-    background-color: #E12B02;
-    padding: 20px 10px;
-}
-
-#header ul{
-    text-align: right;
-    list-style-type: none;
-    margin-right: 15px;
-}
-
-#header li{
-    display: inline-block;
-    margin-left: 20px;
-}
-
-#header a{
-    color: #fff;
-    text-decoration: none;
-    text-transform: capitalize;
-    font-size: 17px;
-    padding: 7px;
-}
-
-#header a.current{
-    color: #F2CB05;
-    text-shadow: 0px 3px 3px rgba(0, 0, 0, 30%);
-    text-decoration: underline; 
-}
-
-.circle{
-    width: 100px;
-    height: 100px;
-    background-color: #fff;
-    border-radius: 50px;
-    margin: 0px;
-}
-
-.card-title{
+.card-title,h2,h3,.form-label,.btn {
     font-family: 'Almarai', sans-serif;
 }
 
-.card-text{
+.card-text,.about-us-p{
     font-family: 'Scheherazade', serif;
     font-size: 1.5rem;
 }
+
