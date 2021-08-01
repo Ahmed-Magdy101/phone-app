@@ -64,34 +64,36 @@
 
 <div class="container-lg">
     <div class="row justify-content-center my-5">
-        <div class="card text-center w-25">
-            <div class="card-body">
-              <h4 class="card-title mb-5 mt-3">البحث عن اعلان</h4>
-              <form>
+      <div class="col-10 col-sm-7 col-md-5 col-lg-4">
+        <div class="card text-center">
+          <div class="card-body">
+            <h4 class="card-title mb-5 mt-3">البحث عن اعلان</h4>
+            <form>
+              <select class="form-select mb-4 text-muted" aria-label="Default select example">
+                  <option selected>الماركة</option>
+                  <option value="1">Apple</option>
+                  <option value="2">Oppo</option>
+                  <option value="3">Nokia</option>
+                </select>
                 <select class="form-select mb-4 text-muted" aria-label="Default select example">
-                    <option selected>الماركة</option>
-                    <option value="1">Apple</option>
-                    <option value="2">Oppo</option>
-                    <option value="3">Nokia</option>
-                  </select>
-                  <select class="form-select mb-4 text-muted" aria-label="Default select example">
-                    <option selected>الحالة</option>
-                    <option value="1">جديد</option>
-                    <option value="2">مستعمل</option>  
-                  </select>
-                  <div class="mb-4">
-                    <input type="email" class="form-control text-start" id="exampleFormControlInput1" placeholder="أقل سعر">
-                  </div>
-                  <div class="mb-4">
-                    <input type="email" class="form-control text-start" id="exampleFormControlInput1" placeholder="أعلى سعر">
-                  </div>
-                  <div class="mb-4">
-                    <input type="email" class="form-control text-start" id="exampleFormControlInput1" placeholder="تاريخ الانتاج">
-                  </div>
-                <button type="submit" class="btn btn-dark mb-5 mt-3">Submit</button>
-              </form>
-            </div>
+                  <option selected>الحالة</option>
+                  <option value="1">جديد</option>
+                  <option value="2">مستعمل</option>  
+                </select>
+                <div class="mb-4">
+                  <input type="text" class="form-control text-start" id="exampleFormControlInput1" placeholder="أقل سعر">
+                </div>
+                <div class="mb-4">
+                  <input type="text" class="form-control text-start" id="exampleFormControlInput1" placeholder="أعلى سعر">
+                </div>
+                <div class="mb-4">
+                  <input type="text" class="form-control text-start" id="exampleFormControlInput1" placeholder="تاريخ اضافة الاعلان">
+                </div>
+              <button type="submit" class="btn btn-dark mb-5 mt-3 px-4">بحث</button>
+            </form>
           </div>
+        </div>
+      </div>
     </div>
 </div>
 
