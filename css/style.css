@@ -8,3 +8,12 @@
     font-size: 1.5rem;
 }
 
+img{
+    border-radius: 50%;
+    border-style: solid;
+    border-color: darkgray;
+}
+
+td{
+    vertical-align: middle;
+}
